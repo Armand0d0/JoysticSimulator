@@ -1,0 +1,1 @@
+cmd_/home/armand/JostickSimulator/JoysticSimulModule.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 --build-id=sha1  -T ./scripts/module-common.lds -o /home/armand/JostickSimulator/JoysticSimulModule.ko /home/armand/JostickSimulator/JoysticSimulModule.o /home/armand/JostickSimulator/JoysticSimulModule.mod.o;  true

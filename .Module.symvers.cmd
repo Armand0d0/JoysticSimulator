@@ -1,0 +1,1 @@
+cmd_/home/armand/JostickSimulator/Module.symvers := sed 's/ko$$/o/' /home/armand/JostickSimulator/modules.order | scripts/mod/modpost -m -a   -o /home/armand/JostickSimulator/Module.symvers -e -i Module.symvers   -T -
