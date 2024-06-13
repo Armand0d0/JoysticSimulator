@@ -23,8 +23,6 @@ ins:
 	insmod JoysticSimulModule.ko
 rm:
 	rmmod JoysticSimulModule.ko
-iaprog: 
-	g++ -o ia ia.cpp -lX11
-	./ia
+
 clean:
 	make -C $(KDIR)  M=$(shell pwd) clean

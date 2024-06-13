@@ -78,11 +78,11 @@ if(!bestMatchStyle)
    // XNextEvent(d, &ev);
     switch (ev.type){
       case KeyPress:{
-        printf("aaaaaaaaGG");
+        printf("a");
       }break;
 
       default:{
-              printf("bbbbbbbbbbbbnnnnN");}
+              printf("b");}
               break;
 
 
