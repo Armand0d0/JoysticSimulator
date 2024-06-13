@@ -11,6 +11,8 @@ Je m'en sert pour réaliser un série d'entrées de façon systématique dans Tr
 
 ## Usage
 
-'''sh
+```sh
 make all 
-'''
+```
+
+
